@@ -1,0 +1,20 @@
+{
+    "name": "rocketnotes-api",
+    "version": "1.0.0",
+    "description": "API completa utilizando Node.js e Expresss. Criei um banco de dados utilizando SQLite, manipulei o banco utilizando a ferramenta Beekeper Studio juntamente com o Query Builder Knex.js. Implementei: autenticação de usuários e upload de imagens. E fiz todas as funcionalidades para que a integração entre o front-end e back-end funcione corretamente.",
+    "main": "./src/server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "dev": "nodemon ./src/server.js"
+    },
+    "author": "Eduardo Nóbrega",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "express-async-error": "^0.0.2"
+    }
+}
